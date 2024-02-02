@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(252, 220, 255);
+}
+/*MENU OG HEADER*/
+ul {
+  list-style-type: none;
+}
+ul a {
+  text-decoration: none;
+  color: black;
+  font-size: 3rem;
+  font-weight: bold;
+}
+header {
+  gap: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+header a {
+  text-decoration: none;
+  color: black;
+  padding-right: 20px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+header ul {
+  display: flex;
+  margin: 0;
+  list-style: none;
+  justify-content: right;
+  gap: 30px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+  padding-right: 20px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/*BODY KATEGORI*/
+h2 {
+  font-size: 2.4rem;
+  line-height: 1.2;
+}
+
+.kategoriliste a {
+  text-decoration: none;
+  padding: 2em;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.269);
+}
